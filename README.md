@@ -9,13 +9,14 @@ For top performing object classification, deep learning algorithms operating on 
 
 In this thesis, methods that evaluate if an input sample differ from the training domain are evaluated and tested in different settings. These outlier samples, referred to out-of-distribution samples, indicates when the system is out of its safety zone and should be treated wih caution. Our findings suggest that out-of-distribution detection and training of the deep neural network is a delicate balance, as small changes in the network structure, parameters and performance can vastly change the probability to detect these outliers. 
 
-# Papers
-## Main author
+# Thesis included papers
 1. [Automotive safety and machine learning: Initial results from astudy on how to adapt the ISO 26262 safety standard](https://dl.acm.org/doi/pdf/10.1145/3194085.3194090)
 2. [Towards Structured Evaluation of Deep Neural Network Supervisors](https://arxiv.org/pdf/1903.01263.pdf)
-3. [Performance Analysis of Out-of-Distribution Detection on Various Trained Neural Networks](https://ieeexplore.ieee.org/abstract/document/8906748)
-4. [**Under review:** Performance Analysis of Out-of-Distribution Detection on Trained Neural Networks](https://github.com/jenshenriksson/jenshenriksson.github.io/blob/master/2019_IST_Preprint.pdf)
+3. [**Under review:** Performance Analysis of Out-of-Distribution Detection on Trained Neural Networks](https://github.com/jenshenriksson/jenshenriksson.github.io/blob/master/2019_IST_Preprint.pdf)
 
-## Supportive author 
-1. [Controlled time series generation for automotive software-in-the-loop testing using GANs](https://arxiv.org/pdf/2002.06611.pdf)
+## Additional papers
+* [Performance Analysis of Out-of-Distribution Detection on Various Trained Neural Networks](https://ieeexplore.ieee.org/abstract/document/8906748)
+
+* [Controlled time series generation for automotive software-in-the-loop testing using GANs](https://arxiv.org/pdf/2002.06611.pdf)
+
 
