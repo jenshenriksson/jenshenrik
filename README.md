@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## Abstract
 The past decade has included groundbreaking algorithmic improvements on the back of immense amount of data. For computer vision and perception, the field of deep learning with convolutional neural networks have seen results on super-human levels. One application area where perception is key is autonomous vehicles, where perception is the backbone of path planning and route exection. From a safety perspective, the route execution is a safety critical task, where wrongful interpretations of the surrounding environment can lead to dangerous situations. However, both the field of deep learning and safety lack ways of presenting realistic safety cases for the usage of deep learning in safety critical applications. 
 
