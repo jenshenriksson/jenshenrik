@@ -9,6 +9,32 @@ The approach is referred to as _supervisor_,or safety cage, throughout the paper
 ## Thesis included papers
 1. [*Automotive safety and machine learning: Initial results from a study on how to adapt the ISO 26262 safety standard*](http://mrksbrg.com/wp-content/uploads/preprints/2018_SEFAIAS_ISO26262.pdf), **Jens Henriksson**, Markus Borg, Cristofer Englund. IEEE/ACM International Workshop on Software Engineering for AI in Autonomous Systems (SEFAIAS) 2018  
 [//]: #**Abstract:** Machine learning (ML) applications generate a continuous stream of success stories from various domains. ML enables many novel applications, also in safety-critical contexts. However, the functional safety standards such as ISO 26262 did not evolve to cover ML. We conduct an exploratory study on which parts of ISO 26262represent the most critical gaps between safety engineering and ML development. While this paper only reports the first steps toward a larger research endeavor, we report three adaptations that are critically needed to allow ISO 26262 compliant engineering, and related suggestions on how to evolve the standard.
+
+
+
+## Thesis included papers
+
+1. [*Automotive safety and machine learning: Initial results from a study on how to adapt the ISO 26262 safety standard*](http://mrksbrg.com/wp-content/uploads/preprints/2018_SEFAIAS_ISO26262.pdf), **Jens Henriksson**, Markus Borg, Cristofer Englund.
+
+<div>
+  <button onclick="toggleAbstract()">Show/Hide Abstract</button>
+  <p id="abstract" style="display:none">Machine learning (ML) applications generate a continuous stream of success stories from various domains. ML enables many novel applications, also in safety-critical contexts. However, the functional safety standards such as ISO 26262 did not evolve to cover ML. We conduct an exploratory study on which parts of ISO 26262 represent the most critical gaps between safety engineering and ML development. While this paper only reports the first steps toward a larger research endeavor, we report three adaptations that are critically needed to allow ISO 26262 compliant engineering, and related suggestions on how to evolve the standard.</p>
+</div>
+
+<script>
+function toggleAbstract() {
+  var x = document.getElementById("abstract");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
 <!-- 
 2. [*Towards Structured Evaluation of Deep Neural Network Supervisors*](https://arxiv.org/pdf/1903.01263.pdf), **Jens Henriksson**, Christian Berger, Markus Borg, Lars Tornberg, Cristofer Englund, Sankar Raman Sathyamoorthy, Stig Ursing. IEEE International Conference On Artificial Intelligence Testing (AITest) 2019  
 **Abstract:** Deep Neural Networks (DNN) have improved the quality of several non-safety related products in the past years. However, before DNNs should be deployed to safety-critical applications, their robustness needs to be systematically analyzed. A common challenge for DNNs occurs when input is dissimilar to the training set, which might lead to high confidence predictions despite proper knowledge of the input. Several previous studies have proposed to complement DNNs with a supervisor that detects when inputs are outside the scope of the network. Most of these supervisors, however, are developed and tested for a selected scenario using a specific performance metric. In this work, we emphasize the need to assess and compare the performance of supervisors in a structured way. We present a framework constituted by four datasets organized in six test cases combined with seven evaluation metrics. The test cases provide varying complexity and include data from publicly available sources as well as a novel dataset consisting of images from simulated driving scenarios. The latter we plan to make publicly available. Our framework can be used to support DNN supervisor evaluation, which in turn could be used to motive development, validation, and deployment of DNNs in safety-critical applications.
