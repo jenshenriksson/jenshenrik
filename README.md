@@ -57,5 +57,5 @@ function toggleAbstract(id) {
 
 * [*On Improving Validity of Deep Neural Networks in Safety Critical Applications*](https://ieeexplore.ieee.org/abstract/document/8906748), **Jens Henriksson**. Thesis for the degree of Licentiate of Engineering 2020. Department of Computer Science and Engineering, Chalmers University of Technology. 
 
-* [*Out-of-Distribution Detection as Support for Autonomous Driving Safety Lifecycle*](https://warg.org/fredrik/publ/refsq2023/OoD_Detection_as_Support_for_AD_Safety_Lifecycle.pdf), **Jens Henriksson**, Stig Ursing, Fredrik Warg, Anders Thorsén, Murat Erdogan, Johan Jaxing Ola ̈Örsmark. In Requirements Engineering: Foundation for Software Quality: 29th International Working Conference, REFSQ 2023. 
+* [*Out-of-Distribution Detection as Support for Autonomous Driving Safety Lifecycle*](https://warg.org/fredrik/publ/refsq2023/OoD_Detection_as_Support_for_AD_Safety_Lifecycle.pdf), **Jens Henriksson**, Stig Ursing, Fredrik Warg, Anders Thorsén, Murat Erdogan, Johan Jaxing Ola Örsmark. In Requirements Engineering: Foundation for Software Quality: 29th International Working Conference, REFSQ 2023. 
 
