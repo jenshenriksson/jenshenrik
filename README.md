@@ -14,23 +14,30 @@ The approach is referred to as _supervisor_,or safety cage, throughout the paper
 
 ## Thesis included papers
 
-1. [*Automotive safety and machine learning: Initial results from a study on how to adapt the ISO 26262 safety standard*](http://mrksbrg.com/wp-content/uploads/preprints/2018_SEFAIAS_ISO26262.pdf), **Jens Henriksson**, Markus Borg, Cristofer Englund.
+1. **Automotive safety and machine learning: Initial results from a study on how to adapt the ISO 26262 safety standard**
+   - *Jens Henriksson*, Markus Borg, Cristofer Englund
+   - <button onclick="toggleAbstract(1)">Show Abstract</button>
+   <p id="abstract1" style="display:none">Machine learning (ML) applications generate a continuous stream of success stories from various domains. ML enables many novel applications, also in safety-critical contexts. However, the functional safety standards such as ISO 26262 did not evolve to cover ML. We conduct an exploratory study on which parts of ISO 26262 represent the most critical gaps between safety engineering and ML development. While this paper only reports the first steps toward a larger research endeavor, we report three adaptations that are critically needed to allow ISO 26262 compliant engineering, and related suggestions on how to evolve the standard.</p>
 
-<div>
-  <button onclick="toggleAbstract()">Show/Hide Abstract</button>
-  <p id="abstract" style="display:none">Machine learning (ML) applications generate a continuous stream of success stories from various domains. ML enables many novel applications, also in safety-critical contexts. However, the functional safety standards such as ISO 26262 did not evolve to cover ML. We conduct an exploratory study on which parts of ISO 26262 represent the most critical gaps between safety engineering and ML development. While this paper only reports the first steps toward a larger research endeavor, we report three adaptations that are critically needed to allow ISO 26262 compliant engineering, and related suggestions on how to evolve the standard.</p>
-</div>
+2. **Title of the second paper**
+   - *Author1*, Author2
+   - <button onclick="toggleAbstract(2)">Show Abstract</button>
+   <p id="abstract2" style="display:none">Abstract text for the second paper.</p>
 
 <script>
-function toggleAbstract() {
-  var x = document.getElementById("abstract");
+function toggleAbstract(id) {
+  var x = document.getElementById("abstract" + id);
+  var button = document.querySelector("button[onclick='toggleAbstract(" + id + ")']");
   if (x.style.display === "none") {
     x.style.display = "block";
+    button.textContent = "Hide Abstract";
   } else {
     x.style.display = "none";
+    button.textContent = "Show Abstract";
   }
 }
 </script>
+
 
 
 
