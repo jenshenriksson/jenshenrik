@@ -1,4 +1,4 @@
-## Abstract
+## Summary
 The past decade has included groundbreaking algorithmic improvements on the back of immense amount of data. For computer vision and perception, the field of deep learning has significantly improved the segmentation and classification performance. However, as automation is increasing, testing and verification of the deep learning models have been seen as a difficult task, due to increased complexity in model development and scenario testing. Both the field of deep learning and safety lack ways of presenting realistic system design and safety case fragments for the usage of deep learning in safety critical applications. 
 
 During the duration of this thesis _Guidance on the Assurance of Machine Learning in Autonomous Systems_ (AMLAS) and _ISO 21448 - Safety Of The Intended Functionality_ (SOTIF) has been researched. Both documents provide a starting ground to validate performance of machine learning based systems in safety automotive applications in a structured manner. However, both are purposely vague with regards to implementation details and testing evaluation metrics. From SOTIF, a key message is to consider a confusion matrix with four states: 1) known safe states, 2) known unsafe states, 3) unknown unsafe states and 4) unknown safe states. This objective share similarities with one studied issue from the deep learning field: handling of uncertain or input samples outside of the scope of the model. The issue stems from the fact that every input sample provides an output prediction, and several sub fields exist to mitigate the impact of undesired inputs e.g. generative models and adversarial training, outlier training and outlier detection. 
@@ -11,18 +11,15 @@ The approach is referred to as _supervisor_,or safety cage, throughout the paper
 [//]: #**Abstract:** Machine learning (ML) applications generate a continuous stream of success stories from various domains. ML enables many novel applications, also in safety-critical contexts. However, the functional safety standards such as ISO 26262 did not evolve to cover ML. We conduct an exploratory study on which parts of ISO 26262represent the most critical gaps between safety engineering and ML development. While this paper only reports the first steps toward a larger research endeavor, we report three adaptations that are critically needed to allow ISO 26262 compliant engineering, and related suggestions on how to evolve the standard.
 
 
-
 ## Thesis included papers
 
-1. **Automotive safety and machine learning: Initial results from a study on how to adapt the ISO 26262 safety standard**
-   - *Jens Henriksson*, Markus Borg, Cristofer Englund
-   - <button onclick="toggleAbstract(1)">Show Abstract</button>
+1. [*Automotive safety and machine learning: Initial results from a study on how to adapt the ISO 26262 safety standard*](http://mrksbrg.com/wp-content/uploads/preprints/2018_SEFAIAS_ISO26262.pdf), **Jens Henriksson**, Markus Borg, Cristofer Englund. IEEE/ACM International Workshop on Software Engineering for AI in Autonomous Systems (SEFAIAS) 2018 
+    <button onclick="toggleAbstract(1)">Show Abstract</button>
    <p id="abstract1" style="display:none">Machine learning (ML) applications generate a continuous stream of success stories from various domains. ML enables many novel applications, also in safety-critical contexts. However, the functional safety standards such as ISO 26262 did not evolve to cover ML. We conduct an exploratory study on which parts of ISO 26262 represent the most critical gaps between safety engineering and ML development. While this paper only reports the first steps toward a larger research endeavor, we report three adaptations that are critically needed to allow ISO 26262 compliant engineering, and related suggestions on how to evolve the standard.</p>
 
-2. **Title of the second paper**
-   - *Author1*, Author2
-   - <button onclick="toggleAbstract(2)">Show Abstract</button>
-   <p id="abstract2" style="display:none">Abstract text for the second paper.</p>
+2. [*Towards Structured Evaluation of Deep Neural Network Supervisors*](https://arxiv.org/pdf/1903.01263.pdf), **Jens Henriksson**, Christian Berger, Markus Borg, Lars Tornberg, Cristofer Englund, Sankar Raman Sathyamoorthy, Stig Ursing. IEEE International Conference On Artificial Intelligence Testing (AITest) 2019  
+   <button onclick="toggleAbstract(2)">Show Abstract</button>
+   <p id="abstract2" style="display:none">Deep Neural Networks (DNN) have improved the quality of several non-safety related products in the past years. However, before DNNs should be deployed to safety-critical applications, their robustness needs to be systematically analyzed. A common challenge for DNNs occurs when input is dissimilar to the training set, which might lead to high confidence predictions despite proper knowledge of the input. Several previous studies have proposed to complement DNNs with a supervisor that detects when inputs are outside the scope of the network. Most of these supervisors, however, are developed and tested for a selected scenario using a specific performance metric. In this work, we emphasize the need to assess and compare the performance of supervisors in a structured way. We present a framework constituted by four datasets organized in six test cases combined with seven evaluation metrics. The test cases provide varying complexity and include data from publicly available sources as well as a novel dataset consisting of images from simulated driving scenarios. The latter we plan to make publicly available. Our framework can be used to support DNN supervisor evaluation, which in turn could be used to motive development, validation, and deployment of DNNs in safety-critical applications.</p>
 
 <script>
 function toggleAbstract(id) {
