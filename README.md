@@ -54,5 +54,7 @@ function toggleAbstract(id) {
 
 * [*On Improving Validity of Deep Neural Networks in Safety Critical Applications*](https://ieeexplore.ieee.org/abstract/document/8906748), **Jens Henriksson**. Thesis for the degree of Licentiate of Engineering 2020. Department of Computer Science and Engineering, Chalmers University of Technology. 
 
-* [*Out-of-Distribution Detection as Support for Autonomous Driving Safety Lifecycle*](https://warg.org/fredrik/publ/refsq2023/OoD_Detection_as_Support_for_AD_Safety_Lifecycle.pdf), **Jens Henriksson**, Stig Ursing, Fredrik Warg, Anders Thorsén, Murat Erdogan, Johan Jaxing Ola Örsmark. In Requirements Engineering: Foundation for Software Quality: 29th International Working Conference, REFSQ 2023. 
+* [SMIRK: A machine learning-based pedestrian automatic emergency braking system with a complete safety case](https://www.sciencedirect.com/science/article/pii/S2665963822000689/pdfft?md5=07caef8ce853a570b9e81747dd2bda5e&pid=1-s2.0-S2665963822000689-main.pdf), Kasper Socha, Markus Borg, **Jens Henriksson**. In Software Impacts Journal, Volume 13, 2022. 
+
+* [On Improving Validity of Deep Neural Networks in Safety Critical Applications](https://research.chalmers.se/publication/517219/file/517219_Fulltext.pdf), **Jens Henriksson**. Thesis for the degree of Licentiate of Engineering, 2020. 
 
